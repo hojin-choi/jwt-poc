@@ -1,0 +1,11 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true
+  },
+  // "files.exclude": {
+  //   "**/node_modules": true
+  // },
+  "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "search.followSymlinks": false
+}

@@ -1,0 +1,30 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch - jwt-poc",
+      "cwd": "${workspaceRoot}",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run-script",
+        "start:debug"
+      ],
+      "port": 37201,
+      "restart": true
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Test - jwt-poc",
+      "cwd": "${workspaceRoot}",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run-script",
+        "test:debug"
+      ],
+      "port": 30000
+    }
+  ]
+}
